@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<base href="">
+<title>军博半日游</title> 
+<style>
+
+* {
+    box-sizing: border-box;  
+}
+
+div.img {		/*响应式图片墙的图片可以随浏览器窗口的大小变换而变换大小*/
+    border: 1px solid lightgray;
+}
+
+div.img:hover {
+    border: 1px solid blue;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) and(min-width:500px){	
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){  
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {		
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">军博半日游</h2>
+<p style="text-align:right">2017/8/11</p>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="../image/war_museum/nuclear_bomb.jpg">
+      <img src="../image/war_museum/nuclear_bomb.jpg" alt="Nuclear_Bomb" width="4608" height="2592">
+    </a>
+    <div class="desc">东风-31<br/>核武器导弹系统</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="../image/war_museum/nuclear_bomb2.jpg">
+      <img src="../image/war_museum/nuclear_bomb2.jpg" alt="Nuclear_Bomb2" width="4608" height="2592">
+    </a>
+    <div class="desc">东风-31<br/>核武器导弹系统2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="../image/war_museum/war_car.jpg">
+      <img src="../image/war_museum/war_car.jpg" alt="War_Car" width="4608" height="2592">
+    </a>
+    <div class="desc"><br/>高射炮导弹系统</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="../image/war_museum/war_car2.jpg">
+      <img src="../image/war_museum/war_car2.jpg" alt="War_Car2" width="4608" height="2592">
+    </a>
+    <div class="desc"><br/>洲际导弹系统</div>
+  </div>
+</div>
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  
+  <h4>待补充</h4>
+</div>
+
+</body>
+</html>

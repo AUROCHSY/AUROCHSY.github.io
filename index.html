@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8"/> 
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<!--上面是响应式方案二-->
+<!--下面是单独设置网页图标的方法-->
+<!--
+<link rel="icon" href="http://atomi.me/image/favicon.ico" type="image/x-icon"/> 
+<link rel="shortcut icon" href="http://atomi.me/image/favicon.ico" type="image/x-icon"/> 
+-->
+
+<title>军博半日游</title> 
+<style>
+
+* {
+    box-sizing: border-box;  
+}
+
+body{
+	background-image: url(image/war_museum/hammer.jpg), url(image/war_museum/paper.jpg);
+    background-position: left top, right top;
+    background-repeat: no-repeat, repeat;
+	background-size:100px 100px,100px 100px;
+    padding: 15px;
+}
+
+div.img {		/*响应式图片墙的图片可以随浏览器窗口的大小变换而变换大小*/
+    border: 1px solid lightgray;
+    box-shadow:8px 8px 8px lightgray;
+    -webkit-box-shadow:8px 8px 8px lightgray;
+    margin:8px 8px;
+    }
+
+div.img:hover {
+    border: 1px solid lightgray;
+    box-shadow:8px 8px 8px lightgreen;
+}
+
+div.img img {
+    width: 100%;
+    height:auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {	
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+	
+}
+
+@media only screen and (max-width: 500px){  
+    .responsive {
+        width: 100%;
+    }
+	
+}
+
+.clearfix:after {		
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">军博半日游</h2>
+<p style="text-align:right">2017/8/11</p>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/war_museum/nuclear_bomb.jpg">
+      <img src="image/war_museum/nuclear_bomb.jpg" alt="Nuclear_Bomb" width="780" height="438">
+    </a>
+    <div class="desc">东风-31<br/>核武器导弹系统</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/war_museum/nuclear_bomb2.jpg">
+      <img src="image/war_museum/nuclear_bomb2.jpg" alt="Nuclear_Bomb2" width="780" height="438">
+    </a>
+    <div class="desc">东风-31<br/>核武器导弹系统2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/war_museum/war_car.jpg">
+      <img src="image/war_museum/war_car.jpg" alt="War_Car" width="780" height="438">
+    </a>
+    <div class="desc"><br/>高射炮导弹系统</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/war_museum/war_car2.jpg">
+      <img src="image/war_museum/war_car2.jpg" alt="War_Car2" width="780" height="438">
+    </a>
+    <div class="desc"><br/>洲际导弹系统</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/war_museum/fighter2.jpg">
+      <img src="image/war_museum/fighter2.jpg" alt="fighter2" width="780" height="1314">
+    </a>
+    <div class="desc"><br/>歼10战斗机</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/war_museum/missle1.jpg">
+      <img src="image/war_museum/missle1.jpg" alt="missle1" width="780" height="1314">
+    </a>
+    <div class="desc"><br/>东风一号导弹</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/war_museum/propeller.jpg">
+      <img src="image/war_museum/propeller.jpg" alt="propeller" width="780" height="1314">
+    </a>
+    <div class="desc">武直旋翼<br/>恰逢闪电</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/war_museum/propeller2.jpg">
+      <img src="image/war_museum/propeller2.jpg" alt="propeller2" width="780" height="1314">
+    </a>
+    <div class="desc"><br/>武直旋翼</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/war_museum/bomber.jpg">
+      <img src="image/war_museum/bomber.jpg" alt="Bomber" width="780" height="438">
+    </a>
+    <div class="desc"><br/>仿苏巨型轰炸机</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/war_museum/fighter1.jpg">
+      <img src="image/war_museum/fighter1.jpg" alt="fighter1" width="780" height="438">
+    </a>
+    <div class="desc"><br/>歼10战斗机</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img" >
+    <a target="_blank" href="image/war_museum/water_missle.jpg">
+      <img src="image/war_museum/water_missle.jpg" alt="water_missle" width="780" height="438">
+    </a>
+    <div class="desc"><br/>反潜导弹</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/war_museum/rifle.jpg">
+      <img src="image/war_museum/rifle.jpg" alt="rifle" width="780" height="438">
+    </a>
+    <div class="desc"><br/>03式5.8毫米自动步枪</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/war_museum/gunship.jpg" >
+      <img src="image/war_museum/gunship.jpg" alt="gunship" width="780" height="438">
+    </a>
+    <div class="desc"><br/><br/>武装直升机</div>
+  </div>
+</div>
+
+<div class="responsive" >
+  <div class="img">
+    <a target="_blank" href="image/war_museum/gunship2.jpg">
+      <img src="image/war_museum/gunship2.jpg" alt="gunship2" width="780" height="438">
+    </a>
+    <div class="desc"><br/><br/>武装直升机2</div>
+  </div>
+</div>
+
+<div class="responsive desc" ><h1>横桨似剑出鞘<br/>恰电闪雷鸣</h1>
+</div>
+<div class="responsive desc" ><h1>歼十如鹰出笼<br/>逢太平盛世</h1></h1>
+</div>
+<div class="clearfix"></div>
+
+
+</body>
+</html>
