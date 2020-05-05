@@ -85,6 +85,9 @@ text {
 .svg-masked-text {
   fill: white;
 }
+.svg-masked-text2 {
+  fill: black;
+}
 
 image {
   -webkit-transform: scale(1.1);
